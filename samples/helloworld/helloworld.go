@@ -18,3 +18,5 @@ func main() {
 	go say("world")
 	say("hello")
 }
+
+// test reproducible build: code change to check whether same uniqueId
